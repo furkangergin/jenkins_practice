@@ -23,7 +23,7 @@ public class Google_Search {
     public void user_sees_steve_jobs_is_in_the_google_title() {
         System.out.println("User is seeing title apple");
         String actual = Driver.getDriver().getTitle();
-        String expected = "aple";
+        String expected = "apple";
 
         Assert.assertTrue(actual.contains(expected));
 
